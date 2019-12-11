@@ -1,7 +1,9 @@
 package basics;
 import java.util.Scanner;
 
-public class leapyear {
+public class leapyear
+//if else
+ {
 
 	public static void main(String [] args)
 	{
@@ -28,8 +30,21 @@ public class leapyear {
 			}
 		}
 		else {
+			System.out.print("large no");
 			System.out.println(" invalid number");
 		}
+		// else if ladder
+		
+			int number=-134;
+			if (number>0) {
+				System.out.println("positive" );
+			}else if(number<0){
+				System.out.println("negative");
+			}else {
+			System.out.println("zero");	
+			}
+			//else if ladder
+			
 			
 			}
 		}
